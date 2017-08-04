@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  /*min-height: 400px;
+  max-height: 3072px;*/
+}
+
+#center-container {
+  position: relative;
+  top: 200px;
+  /*height: 100%;*/
+  margin: auto;
+  vertical-align: center;
+}
+
+#logo {
+  position: relative;
+  margin: 10px auto;
+  width: 240px;
+  height: 85px;
+  vertical-align: center;
+}
+
+h6 {
+  color: #4285f4;
+  font: 16px arial, sans-serif;
+  position: absolute;
+  top: 65px;
+  left: 185px;
+}
+
+#input-container {
+  margin: 10px auto;
+  min-width: 270px;
+  max-width: 520px;
+}
+
+input {
+  margin: 10px 10px;
+  width: 96%;
+}
+
+#button-container {
+  margin: 10px auto;
+  width: 265px
+}
+
+button {
+  margin: auto 5px;
+  height: 35px;
+  width: 120px;
+}
+
+p {
+  margin: 20px auto;
+  text-align: center;
+  font: 14px arial, sans-serif;
+}
