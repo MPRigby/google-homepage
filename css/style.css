@@ -61,3 +61,53 @@ p {
   text-align: center;
   font: 14px arial, sans-serif;
 }
+
+#topnavcontainer {
+  position: fixed;
+  top: 0px;
+  right: 15px;
+  width: 100%;
+}
+
+#topnavbar {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+#bottomnavbar {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+ul.bottomnavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  border-top: 1px solid #e4e4e4;
+}
+
+li {
+  display: block;
+  padding: 11px;
+  font: 12px arial, sans-serif;
+}
+
+li a {
+  color: #222;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+li.leftli {
+  float: left;
+}
+
+li.rightli {
+  float: right;
+}
