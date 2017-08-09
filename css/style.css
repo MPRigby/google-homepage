@@ -12,18 +12,16 @@ body {
 
 #center-container {
   position: relative;
-  top: 200px;
+  top: 180px;
   /*height: 100%;*/
   margin: auto;
-  vertical-align: center;
 }
 
 #logo {
   position: relative;
-  margin: 10px auto;
+  margin: 20px auto;
   width: 240px;
   height: 85px;
-  vertical-align: center;
 }
 
 h6 {
@@ -34,19 +32,35 @@ h6 {
   left: 185px;
 }
 
-#input-container {
+#form-container {
   margin: 10px auto;
   min-width: 270px;
   max-width: 520px;
 }
 
-input {
+#inputcontainer {
   margin: 10px 10px;
+  height: 40px;
   width: 96%;
+  box-shadow: 1px 3px 4px 3px #bababa;
+  position: relative;
+}
+
+input {
+  margin: 0px 0px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+#microphone {
+  position: absolute;
+  top: 7px;
+  right: 10px;
 }
 
 #button-container {
-  margin: 10px auto;
+  margin: 20px auto;
   width: 265px
 }
 
